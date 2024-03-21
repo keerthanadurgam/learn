@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <head><B>UBER</B>
+            <style>
+                body {
+                  background-image: url("uber.jpeg");
+                  background-position-x: center;
+                }
+                #para{
+                    display:none;}
+                    #section{
+                        display:none;}
+                        #list{
+                            display:none;
+                }
+                </style></head>
+        <title>GO WITH UBER</title>
+            <div>
+                <button style="display: inline;" onclick="para()">Home</button>
+                <button style="display: inline;" onclick="section()">Register</button>
+                <button style="display: inline;" onclick="list()">Vehicle</BUTTON>
+            </div>
+
+        <div id="para">
+            <pre>
+ Looking for outstation cabs? Book Uber Intercity
+ No city is too far with Uber Intercity. Get 
+ convenient and affordable outstation cabs anytime
+ at your doorstep.</b>
+            </pre>
+         </div>
+            <div id="section">
+                <form>
+                <input type ="text" placeholder="username" id="name" required>
+                <br>
+                <input type="phone numer" placeholder="phone number" id="phone" required>
+                <br>
+                <input type="password" placeholder="password" id="password" required>
+                <br>
+               <button onclick="hello()">submit</button>
+                </form>
+                <p id="show"></p>
+            </div>
+        <div id="list">
+                <ul style="color:black" display="inline" >
+                   <b> <li>AUTO</li>
+                    <li>BIKE</li>
+                    <li>CAB</li>
+                  <ul></b>
+         </div>
+    <script src="form.js"></script>
+    </body>
+</html>
